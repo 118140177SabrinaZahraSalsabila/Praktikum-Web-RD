@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.container {
+    margin: 120px auto;
+    border: 2px solid black;
+    width: 600px;
+    height: auto;
+}
+
+header {
+    background-color: orange;
+    height: auto;
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+img {
+    width: 20%;
+}
+
+nav {  
+    border-bottom: 2px solid black;
+    background-color: darkred;
+    padding:10px 0px 10px 0px;
+    overflow: hidden;
+}
+
+nav a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.body {
+    display: flex;
+    height: auto;
+    width: auto;
+    border-bottom: 2px solid black;
+}
+
+.mainContent {
+    background-color: lightgrey;
+    height: 300px;
+    width: 70%;
+    padding: 1em;
+    align-items: center;
+    justify-content: justify;
+    border-right: 2px solid black;
+}
+
+.contentBerita {
+    background-color: green;
+    height: 300px;
+    width: 30%;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentBerita ul {
+    padding: 1em;
+    text-decoration: none;
+    font-size: 12px; 
+    color: black;
+}
+
+.contentBerita ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px; 
+}
+
+footer {
+    background-color: gray;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
